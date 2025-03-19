@@ -2,7 +2,7 @@ import { ethers } from 'hardhat';
 import { makeAbi } from './abiGenerator';
 
 async function main() {
-  const contractName = 'MyToken';
+  const contractName = 'MyGasslessToken';
 
   console.log(`Deploying contracts`);
 
