@@ -8,9 +8,7 @@ const config: HardhatUserConfig = {
   networks: {
     ganache: {
       url: 'HTTP://127.0.0.1:7545',
-      accounts: [
-        process.env.PRIVATE_KEY || '', 
-      ],
+      accounts: [process.env.OWNER_PRIVATE_KEY || ''],
     },
   },
 };
