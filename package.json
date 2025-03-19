@@ -1,0 +1,18 @@
+{
+  "name": "permit",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.ts",
+    "test:deploy": "npx hardhat test test/deploy.test.ts",
+    "test:web3": "npx hardhat test test/web3.test.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19",
+    "prettier": "^3.5.2",
+    "prettier-plugin-solidity": "^1.4.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7"
+  }
+}
